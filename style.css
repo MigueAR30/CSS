@@ -1,8 +1,31 @@
-* {
+body {
   background-image: url(img/background.jpg);
-  color: aliceblue;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 11px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1);
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 #nucba {
-  color: crimson;
+  color: rgb(224, 26, 43);
+  text-shadow: 1px 2px 4px black;
+}
+.list-none {
+  list-style-type: none;
+}
+
+.text-space {
+  line-height: 35px;
+  text-align: center;
+}
+
+.container {
+  background-color: #282828;
+  padding: 16px;
+  border-radius: 16px;
+  width: fit-content;
+  margin: 20px 0;
 }
